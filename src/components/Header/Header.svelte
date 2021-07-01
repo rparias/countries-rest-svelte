@@ -13,6 +13,11 @@
 		justify-content: space-between;
 		background-color: #fff;
 		box-shadow: 0 1px 3px #979797;
-		width: 100vw;
+		padding: 30px 16px;
+	}
+
+	h1 {
+		font-weight: 800;
+		font-size: 1rem;
 	}
 </style>
