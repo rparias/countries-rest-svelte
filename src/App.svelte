@@ -1,13 +1,5 @@
 <script>
-	export let name;
-
-	let buttonText = 'Button';
-
-	function handleClick() {
-		buttonText = 'Button Clicked';
-	}
+	import Header from './components/Header/Header.svelte';
 </script>
 
-<h1>Hello {name}!</h1>
-
-<button on:click={handleClick}>{buttonText}</button>
+<Header />

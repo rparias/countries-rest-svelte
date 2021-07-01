@@ -5,14 +5,14 @@ import { render, fireEvent } from '@testing-library/svelte';
 
 import App from './App.svelte';
 
-test('shows proper heading when rendered', () => {
+test.skip('shows proper heading when rendered', () => {
 	const { getByText } = render(App, { name: 'World' });
 
 	expect(getByText('Hello World!')).toBeInTheDocument();
 });
 
 // Note: This is as an async test as we are using `fireEvent`
-test('changes button text on click', async () => {
+test.skip('changes button text on click', async () => {
 	const { getByText } = render(App, { name: 'World' });
 	const button = getByText('Button');
 
