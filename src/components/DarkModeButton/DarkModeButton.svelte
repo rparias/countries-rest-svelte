@@ -20,4 +20,15 @@
 		width: 100%;
 		height: 100%;
 	}
+
+	@media only screen and (min-width: 768px) {
+		button {
+			font-size: 16px;
+		}
+
+		button::before {
+			top: 4px;
+			background-size: auto;
+		}
+	}
 </style>

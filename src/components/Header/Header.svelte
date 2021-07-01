@@ -20,4 +20,14 @@
 		font-weight: 800;
 		font-size: 1rem;
 	}
+
+	@media only screen and (min-width: 768px) {
+		header {
+			padding: 24px 81px;
+		}
+
+		h1 {
+			font-size: 24px;
+		}
+	}
 </style>
