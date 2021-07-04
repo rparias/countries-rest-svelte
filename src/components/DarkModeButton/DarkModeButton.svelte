@@ -1,4 +1,11 @@
-<button>Dark Mode</button>
+<script>
+	function handleClick() {
+		const body = document.body;
+		body.classList.toggle('dark-mode');
+	}
+</script>
+
+<button on:click={handleClick}>Dark Mode</button>
 
 <style>
 	button {
@@ -7,6 +14,7 @@
 		font-weight: 600;
 		font-size: 12px;
 		position: relative;
+		cursor: pointer;
 	}
 
 	button::before {

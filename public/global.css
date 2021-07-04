@@ -11,3 +11,16 @@ body {
 	font-family: 'Nunito Sans', sans-serif;
 	color: #111517;
 }
+
+body.dark-mode {
+	background-color: #202c36;
+	color: #ffffff;
+}
+
+body.dark-mode header {
+	background-color: #2b3844;
+}
+
+body.dark-mode header button {
+	color: #ffffff;
+}
